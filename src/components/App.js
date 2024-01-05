@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./Profile";
 import Qualifications from "./Qualifications";
 import "../index.css";
+import Courses from "./Courses";
 // class component
 class App extends React.Component{
     render(){
@@ -15,6 +16,8 @@ class App extends React.Component{
                             <Qualifications />
                         </div>
                     </div>
+                    <hr/>
+                    <Courses />
                 </div>
             );
         }
