@@ -20,7 +20,7 @@ class SocialProfile extends React.Component{
     render(){
         const {link , image} =this.props.socialprofileParam;
         return(
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
                 <img src={image} alt="Social" style={{width:20 , margin:5 }}/>
             </a>
         );
