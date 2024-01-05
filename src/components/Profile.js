@@ -4,8 +4,6 @@ import profilePicture from "../assets/fouda.png";
 class Profile extends React.Component{
     constructor(){
         super();
-         this.myStyle={width:"300px" ,height:"300px" , borderRadius:"100px"};
-         this.btnStyle={backgroundColor:"teal" ,color:"white" , fontSize:"18px"};
          this.state={displayBio : false};
          this.toggle=this.toggle.bind(this);
     }
@@ -24,17 +22,17 @@ class Profile extends React.Component{
     render(){
         return (
                 <div>
-                    <img src={profilePicture} style={this.myStyle} alt="profile"/>
+                    <img src={profilePicture} className="profile" alt="profile"/>
                     <h1>Hello</h1>
                     <p>Ahmed Fouda : Software Developer</p>
                     {this.state.displayBio ? (
                         <div>
                             <p>I love programming and I love football</p>
                             <p>My favorite team is Al-Ahly</p>
-                        <button onClick={this.toggle} style={this.btnStyle}>Hide</button>
+                        <button onClick={this.toggle} className="btn">Hide</button>
                         </div>
                     ) : (
-                        <button onClick={this.toggle} style={this.btnStyle}>Show More</button>
+                        <button onClick={this.toggle} className="btn">Show More</button>
                     )}
                 </div>
             );

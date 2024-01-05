@@ -3,6 +3,7 @@ import Profile from "./Profile";
 import Qualifications from "./Qualifications";
 import "../index.css";
 import Courses from "./Courses";
+import SocialProfiles from "./SocialProfiles";
 // class component
 class App extends React.Component{
     render(){
@@ -18,6 +19,8 @@ class App extends React.Component{
                     </div>
                     <hr/>
                     <Courses />
+                    <hr/>
+                    <SocialProfiles />
                 </div>
             );
         }
