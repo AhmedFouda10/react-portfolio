@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
