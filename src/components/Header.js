@@ -11,6 +11,7 @@ class Header extends Component {
                 <div>
                     <h3 style={this.myStyle}><Link to="/">Home</Link></h3>
                     <h3 style={this.myStyle}><Link to="/amthal">Amthal</Link></h3>
+                    <h3 style={this.myStyle}><Link to="/gallery">Gallery</Link></h3>
                 </div>
             </div>
         );
