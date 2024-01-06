@@ -4,7 +4,8 @@ import Qualifications from "./Qualifications";
 import "../index.css";
 import Courses from "./Courses";
 import SocialProfiles from "./SocialProfiles";
-import Title from "./Title";
+// import Title from "./Title";
+import Title from "./TitleWithHooks";
 // class component
 class App extends React.Component{
     render(){

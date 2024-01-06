@@ -9,7 +9,7 @@ const Courses =()=>{
             <div>
                 {
                     courses.map(course =>{
-                        return <Course courseParam={course}/>
+                        return <Course key={course.id} courseParam={course}/>
                     })
                 }
             </div>

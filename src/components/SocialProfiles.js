@@ -8,7 +8,7 @@ class SocialProfiles extends React.Component{
                 <h3>Connect With Me</h3>
                 {
                     socialProfiles.map(profile=>{
-                        return <SocialProfile  socialprofileParam={profile} />
+                        return <SocialProfile key={profile.id}  socialprofileParam={profile} />
                     })
                 }
             </div>

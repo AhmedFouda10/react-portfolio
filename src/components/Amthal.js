@@ -33,7 +33,7 @@ class Amthal extends Component{
                 <button className="btn" onClick={this.fetchAmthal}>Amthal</button>
                 {
                     this.state.amthal.map(mathal =>{
-                        return <p>{mathal.title}</p>
+                        return <p key={mathal.id}>{mathal.title}</p>
                     })
                 }
             </div>

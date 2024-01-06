@@ -9,7 +9,7 @@ class Gallery extends Component {
             <div>
                 {
                     IMAGES.map(imageObject =>{
-                        return <Image src={imageObject.image} description={imageObject.description}/>
+                        return <Image key={imageObject.id} src={imageObject.image} description={imageObject.description}/>
                     })
                 }
             </div>
