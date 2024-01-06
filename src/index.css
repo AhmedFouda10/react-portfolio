@@ -88,3 +88,26 @@ body{
         opacity: 100;
     }
 }
+
+
+.gallery{
+    display: inline-block;
+    margin: 15px;
+    width: 300px;
+}
+
+.gallery img:hover{
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery p{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
